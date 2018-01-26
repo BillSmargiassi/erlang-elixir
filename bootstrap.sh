@@ -10,7 +10,7 @@ rpm -Uvh erlang-solutions-1.0-1.noarch.rpm
 
 yum update
 
-yum -y install readline-devel libyaml-devel libffi-devel unixODBC-devel ncurses-devel curl
+yum -y install git readline-devel libyaml-devel libffi-devel unixODBC-devel ncurses-devel curl
 
 # Install asdf
 git clone https://github.com/asdf-vm/asdf.git $HOME/.asdf
