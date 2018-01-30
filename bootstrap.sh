@@ -10,7 +10,7 @@
 
 sudo yum update
 
-sudo yum -y install git readline-devel libyaml-devel libffi-devel unixODBC-devel ncurses-devel curl openssl-devel libxslt-devel libtool
+sudo yum -y install git readline-devel libyaml-devel libffi-devel unixODBC-devel ncurses-devel curl openssl-devel libxslt-devel libtool unzip
 
 # Install asdf
 git clone https://github.com/asdf-vm/asdf.git $HOME/.asdf
