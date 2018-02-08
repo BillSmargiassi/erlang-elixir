@@ -22,6 +22,7 @@ cd /vagrant
 # Make the versions defined .tool-versions file the versions used by the # user in any directory
 cp .tool-versions $HOME
 # Install all correct versions of these packages for the project asdf install
-asdf install
+asdf install erlang 18.3
+asdf install elixir 1.2.6
 
 echo "Completed setup of Erlang environment!"
