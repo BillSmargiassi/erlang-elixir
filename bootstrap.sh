@@ -2,6 +2,8 @@
 
 sudo yum update
 
+sudo yum -y install epel-release
+
 sudo yum -y install git readline-devel libyaml-devel libffi-devel unixODBC-devel ncurses-devel curl openssl-devel libxslt-devel libtool unzip autoconf automake make gcc-c++ protobuf
 
 # Install asdf
