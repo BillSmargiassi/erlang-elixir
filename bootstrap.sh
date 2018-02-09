@@ -2,7 +2,7 @@
 
 sudo yum update
 
-sudo yum -y install git readline-devel libyaml-devel libffi-devel unixODBC-devel ncurses-devel curl openssl-devel libxslt-devel libtool unzip
+sudo yum -y install git readline-devel libyaml-devel libffi-devel unixODBC-devel ncurses-devel curl openssl-devel libxslt-devel libtool unzip autoconf automake make gcc-c++ 
 
 # Install asdf
 git clone https://github.com/asdf-vm/asdf.git $HOME/.asdf
